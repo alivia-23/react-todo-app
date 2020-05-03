@@ -1,0 +1,152 @@
+body {
+  background-color:  #fff7e6;
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+button {
+  border-radius:12px !important;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.light-theme-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.dark-theme-button {
+  background-color: orange;
+  color: white;
+}
+
+.colorful-theme-button {
+  background-color: #cccc00;
+  color: black;
+}
+
+.light-theme-font {
+  color: orange;
+}
+
+.dark-theme-font {
+  color: orange;
+}
+
+.colorful-theme-font {
+  color: black;
+}
+
+.app-title {
+  text-align: center;
+  color: Orange;
+}
+
+.login {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.logout {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.logout-button {
+}
+
+.user-name {
+  font-weight: bold;
+  color: Orange;
+}
+
+.to-add {
+  width: 200px;
+}
+
+.themes {
+  text-align: center;
+}
+
+.themes-select {
+  background-color: #ffcc66;
+  padding: 16px;
+  font-size: 16px;
+  min-width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-message {
+  text-align: center;
+}
+
+.todo-content {
+  padding-left: 20px
+}
+.todo-done-header {
+  padding-left: 40px
+}
+
+.todo-row {
+  list-style: none;
+}
+
+.todo-done {
+  min-width: 100px;
+}
+
+.todo-name {
+  min-width: 200px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.todo-name-complete {
+  text-decoration: line-through;
+  min-width: 200px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.todo-done-header {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.todo-name-header {
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.todo-delete-header {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.asc-sort-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.desc-sort-icon {
+  width: 15px;
+  height: 20px;
+}
+
+.delete-todo {
+  background-color: red;
+}
+
+.error {
+  text-align: center;
+  color: Red;
+}
+
+.edit-error {
+  color: Red;
+  padding-left: 120px;
+}
