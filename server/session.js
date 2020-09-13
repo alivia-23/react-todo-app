@@ -1,4 +1,3 @@
-// This file intentionally complex
 const { v4: uuidv4 } = require('uuid');
 const users = require('./users');
 

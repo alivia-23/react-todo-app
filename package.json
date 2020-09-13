@@ -13,9 +13,9 @@
     "react-scripts": "3.4.1",
     "uuid": "^7.0.3"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5010",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/index.js",
     "server": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
