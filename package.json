@@ -11,11 +11,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "uuid": "^7.0.3"
+    "uuid": "^7.0.3",
+    "pm2": "^4.2.0"
   },
   "proxy": "http://localhost:5010",
   "scripts": {
-    "start": "node ./node_modules/pm2/bin/pm2 server/index.js --name react-todo-app",
+    "start": "node ./node_modules/pm2/bin/pm2 start server/index.js --name react-todo-app",
     "stop": "node ./node_modules/pm2/bin/pm2 stop react-todo-app",
     "server": "node server/index.js",
     "build": "react-scripts build",
