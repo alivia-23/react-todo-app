@@ -15,7 +15,8 @@
   },
   "proxy": "http://localhost:5010",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node ./node_modules/pm2/bin/pm2 server/index.js --name react-todo-app",
+    "stop": "node ./node_modules/pm2/bin/pm2 stop react-todo-app",
     "server": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
